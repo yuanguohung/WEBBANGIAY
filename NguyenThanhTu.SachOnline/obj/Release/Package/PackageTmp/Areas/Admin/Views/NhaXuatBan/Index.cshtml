@@ -1,0 +1,53 @@
+﻿@model IEnumerable<NguyenThanhTu.SachOnline.Models.NHAXUATBAN>
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml" ;
+}
+
+
+<h2 style="text-align:center; font-family:'Segoe UI',Tahoma,Verdana, Geneva, Tahoma, sans-serif;">DANH SÁCH NHÀ XUẤT BẢN</h2>
+
+<p>
+    <a href="~/Admin/NhaXuatBan/ThemNXB">Tạo mới</a>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            TênNXB
+        </th>
+        <th>
+            Địa Chỉ
+        </th>
+        <th>
+            Điện thoại
+        </th>
+        <th>Cập nhật thông tin</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNXB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                <a href="~/Admin/NhaXuatBan/CapNhatNXB?id=@item.MaNXB">Cập nhật</a> |
+                <a href="~/Admin/NhaXuatBan/ChiTiet?id=@item.MaNXB">Chi tiết</a> |
+                <a href="~/Admin/NhaXuatBan/XoaNXB?id=@item.MaNXB">Xóa</a>
+            </td>
+        </tr>
+    }
+
+</table>
+<style>
+    th, td {
+        padding: 10px;
+    }
+</style>
+

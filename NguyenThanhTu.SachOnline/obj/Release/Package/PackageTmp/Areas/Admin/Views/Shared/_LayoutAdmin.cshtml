@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/Scripts/js")
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navAdmin" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@Url.Action("Index","Home")">
+                    SachOnlineAdmin
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navAdmin">
+                <ul class="nav navbar-nav">
+                    <li><a href="@Url.Action("Index","Sach")">QUẢN LÝ SÁCH</a> </li>
+                    <li><a href="@Url.Action("Index","ChuDe2")">QUẢN LÝ CHỦ ĐỀ</a> </li>
+                    <li>
+                        <a href="@Url.Action("Index","NhaXuatBan")">
+                            QUẢN LÝ NHÀ XUẤT
+                            BẢN
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","KhachHang")">
+                            QUẢN LÝ KHÁCH
+                            HÀNG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","DonHang")">QUẢN LÝ ĐƠN HÀNG</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("Index","Menu")">MENU</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <footer class="container well">
+        <div style="text-align:center;">
+            <p>ADMIN</p>
+        </div>
+    </footer>
+    @RenderSection("script", required: false)
+</body>
+</html>

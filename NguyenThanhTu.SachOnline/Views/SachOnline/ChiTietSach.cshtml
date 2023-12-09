@@ -1,0 +1,46 @@
+﻿@model NguyenThanhTu.SachOnline.Models.SACH
+
+@{
+    ViewBag.Title = "ChiTietSach";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div>
+    <h3>@Model.TenSach</h3>
+    <hr />
+    <img src="~/Images/@Model.AnhBia" alt="Thumbnail Image @Model.MaSach" class="img- responsive img-rounded imgbook ">
+    <hr />
+    <p>@Html.Raw(@Model.MoTa.ToString().Replace("\n", "</p><p>&nbsp&nbsp&nbsp&nbsp&nbsp"))</p>
+
+    <hr />
+    <div class="end">
+        <p class="Day">Ngày cập nhật: @Html.FormatValue(@Model.NgayCapNhat, "{0:dd/MM/yyyy}")</p>
+        <p class="Money">Giá bán: <strong>@Html.FormatValue(@Model.GiaBan, "{0:#,##0}")</strong></p>
+        <p class="BT"><a href="@Url.Action("ThemGioHang","GioHang", new { ms = Model.MaSach, url = Request.Url.ToString() })" class="btn btn-primary" role="button"><span class="glyphicon glyphicon- shopping-cart" aria-hidden="true"></span> Add to Cart</a></p>
+    </div>
+</div>
+<style>
+    h3 {
+        text-align: center;
+        color: red;
+        background-color: aqua;
+        padding: 5px;
+    }
+
+    img.imgbook {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .end {
+        float: right;
+        text-align: center;
+    }
+
+    strong {
+        color: blue;
+        font-size: 15px;
+    }
+</style>

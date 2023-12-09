@@ -1,0 +1,37 @@
+﻿@model IEnumerable<NguyenThanhTu.SachOnline.Models.SACH>
+<div class="container">
+    <h2 class="text-center">SÁCH BÁN NHIỀU</h2>
+    <div class="row">
+        @foreach (var sach in Model)
+        {
+            <div class="col-lg-6 col-md-6">
+                <div class="media-object-default">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object imgsachbannhieu"
+                                     src="~/Images/@sach.AnhBia" alt="Thumbnail Image" style="width: 100px; height:125px">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="@Url.Action("ChiTietSach","SachOnline", new {id= sach.MaSach})">@sach.TenSach</a>
+                            @Truncate(sach.MoTa, 190)
+                            <!-- Thêm mô tả sách tại đây -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@helper Truncate(string s, int length)
+{
+    if (s.Length < length)
+    {
+        @s
+    }
+    else
+    {
+        @s.Substring(0, length) <text>...</text>
+    }
+}

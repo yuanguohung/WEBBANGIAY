@@ -1,0 +1,319 @@
+﻿@using NguyenThanhTu.SachOnline.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<NguyenThanhTu.SachOnline.Models.SACH>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@helper Truncate(string s, int length)
+{
+    if (s.Length < length)
+    {
+        @s
+    }
+    else
+    {
+        @s.Substring(0, length)<text>...</text>
+    }
+}
+
+<h2 style="text-align:center;">QUẢN LÝ THÔNG TIN SÁCH</h2>
+<p>
+    <button id="btnAddSach" class="btn btn-primary">Thêm mới</button>
+</p>
+
+<table class="table">
+    <tr>
+        <th style="text-align:center;width:140px">
+            Tên sách
+        </th>
+        <th style="text-align:center;width:200px">
+            Mô tả
+        </th>
+        <th style="text-align:center;width:80px">
+            Ảnh bìa
+        </th>
+        <th style="text-align:center;width:100px">
+            Ngày cập nhật
+        </th>
+        <th style="text-align:center;width:80px">
+            Số lượng
+        </th>
+        <th style="text-align:center;width:80px">
+            Giá bán
+        </th>
+        <th style="text-align:center;width:100px">
+            Chủ đề
+        </th>
+        <th style="text-align:center;width:100px">
+            Nhà xuất bản
+        </th>
+        <th style="text-align:center"></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @*Sử dụng helper để cắt TenSach lấy 50 ký tự*@
+                @Truncate(item.TenSach, 50)
+            </td>
+            <td>
+                @*Sử dụng helper để cắt MoTa lấy 70 ký tự*@
+                @Html.Raw(Truncate(item.MoTa, 70).ToString())
+            </td>
+            <td>
+                <img src="~/Images/@item.AnhBia" style="width:50px;" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayCapNhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuongBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CHUDE.TenChuDe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NHAXUATBAN.TenNXB)
+            </td>
+            <td>
+                <button class="btn btn-warning btnEditSach" data-id="@item.MaSach">Sửa</button>
+                <button class="btn btn-primary btnDetailSach" data-id="@item.MaSach">Chi tiết</button>
+                <button class="btn btn-danger btnDeleteSach" data-id="@item.MaSach">Xóa</button>
+            </td>
+        </tr>
+    }
+</table>
+<!-- Modal Thêm/Sửa Sách -->
+<div class="modal fade" id="sachModal" tabindex="-1" role="dialog" aria-labelledby="sachModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="sachModalLabel">Thêm/Sửa Sách</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="sachForm">
+                    <div class="form-group">
+                        <label for="sTenSach">Tên sách:</label>
+                        <input type="text" class="form-control" id="sTenSach" name="sTenSach">
+                    </div>
+                    <div class="form-group">
+                        <label for="sMoTa">Mô tả:</label>
+                        <textarea class="form-control" id="sMoTa" name="sMoTa"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="iSoLuong">Số lượng:</label>
+                        <input type="number" class="form-control" id="iSoLuong" name="iSoLuong">
+                    </div>
+                    <div class="form-group">
+                        <label for="mGiaBan">Giá bán:</label>
+                        <input type="number" class="form-control" id="mGiaBan" name="mGiaBan">
+                    </div>
+                    <div class="form-group">
+                        <label for="MaCD">Chủ đề:</label>
+                        <select class="form-control" id="MaCD" name="MaCD">
+                            @Html.DropDownList("MaCD")
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaNXB">Nhà xuất bản:</label>
+                        <select class="form-control" id="MaNXB" name="MaNXB">
+                            @Html.DropDownList("MaNXB")
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dNgayCapNhat">Ngày cập nhật:</label>
+                        <input type="date" class="form-control" id="dNgayCapNhat" name="dNgayCapNhat">
+                    </div>
+                    <div class="form-group">
+                        <label for="fFileUpload">Ảnh bìa:</label>
+                        <input type="file" class="form-control" id="fFileUpload" name="fFileUpload">
+                    </div>
+                    <input type="hidden" id="MaSach" name="MaSach" value="0">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" id="btnSaveSach">Lưu</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Sự kiện khi nút Thêm mới được click
+        $("#btnAddSach").click(function () {
+            // Đặt các giá trị mặc định cho form
+            $("#sachForm")[0].reset();
+            $("#MaSach").val("0");
+
+            // Lấy danh sách chủ đề từ server và thêm vào dropdown
+            $.ajax({
+                url: "@Url.Action("GetChuDeList", "Sach2")",
+                type: "GET",
+                success: function (data) {
+                    var options = "<option value=''>Chọn chủ đề</option>";
+                    data.forEach(function (item) {
+                        options += "<option value='" + item.MaCD + "'>" + item.TenChuDe + "</option>";
+                    });
+                    $("#MaCD").html(options);
+                }
+            });
+
+            // Lấy danh sách nhà xuất bản từ server và thêm vào dropdown
+            $.ajax({
+                url: "@Url.Action("GetNXBList", "Sach2")",
+                type: "GET",
+                success: function (data) {
+                    var options = "<option value=''>Chọn nhà xuất bản</option>";
+                    data.forEach(function (item) {
+                        options += "<option value='" + item.MaNXB + "'>" + item.TenNXB + "</option>";
+                    });
+                    $("#MaNXB").html(options);
+                }
+            });
+
+            // Hiển thị modal
+            $("#sachModal").modal("show");
+        });
+
+        // Sự kiện khi nút Lưu trong modal được click
+        $("#btnSaveSach").click(function () {
+            // Lấy dữ liệu từ form
+            var formData = new FormData($("#sachForm")[0]);
+            formData.append("MaCD", $("#MaCD").val());
+            formData.append("MaNXB", $("#MaNXB").val());
+            // Gửi yêu cầu AJAX để thêm/sửa sách
+            $.ajax({
+                url: "@Url.Action("AddOrUpdateSach", "Sach2")",
+                type: "POST",
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    if (data.code === 200) {
+                        // Đóng modal và làm mới danh sách sách
+                        $("#sachModal").modal("hide");
+                        loadSachData();
+                    } else {
+                        alert("Lỗi: " + data.msg);
+                    }
+                }
+            });
+        });
+
+        // Sự kiện khi nút Sửa sách được click
+        $(".btnEditSach").click(function () {
+            var id = $(this).data("id");
+
+            // Lấy thông tin sách từ server và điền vào form
+            $.ajax({
+                url: "@Url.Action("GetSachDetail", "Sach2")",
+                type: "GET",
+                                data: { maSach: id },
+                success: function (data) {
+                    if (data.code === 200) {
+                        var sach = data.sach;
+                        $("#MaSach").val(sach.MaSach);
+                        $("#sTenSach").val(sach.TenSach);
+                        $("#sMoTa").val(sach.MoTa);
+                        $("#iSoLuong").val(sach.SoLuong);
+                        $("#mGiaBan").val(sach.GiaBan);
+                        $("#MaCD").val(sach.MaCD);
+                        $("#MaNXB").val(sach.NXB);
+                        $("#dNgayCapNhat").val(sach.NgayCapNhat);
+
+                        // Hiển thị modal
+                        $("#sachModal").modal("show");
+                    } else {
+                        alert("Lỗi: " + data.msg);
+                    }
+                }
+            });
+        });
+
+        // Sự kiện khi nút Xóa sách được click
+        $(".btnDeleteSach").click(function () {
+            var id = $(this).data("id");
+
+            if (confirm("Bạn có chắc muốn xóa sách này?")) {
+                // Gửi yêu cầu xóa sách
+                $.ajax({
+                    url: "@Url.Action("DeleteSach", "Sach2")",
+                    type: "POST",
+                    data: { maSach: id },
+                    success: function (data) {
+                        if (data.code === 200) {
+                            // Làm mới danh sách sách
+                            loadSachData();
+                        } else {
+                            alert("Lỗi: " + data.msg);
+                        }
+                    }
+                });
+            }
+        });
+
+        // Hàm để tải danh sách sách bằng AJAX
+        function loadSachData() {
+            $.ajax({
+                url: "@Url.Action("DsSach", "Sach2")",
+                type: "GET",
+                success: function (data) {
+                    if (data.code === 200) {
+                        var sachList = data.dssach;
+                        var table = $("#sachTable");
+
+                        // Xóa toàn bộ dòng trong bảng sách
+                        table.find("tr:gt(0)").remove();
+
+                        // Duyệt qua danh sách sách và thêm vào bảng
+                        for (var i = 0; i < sachList.length; i++) {
+                            var sach = sachList[i];
+                            var newRow = "<tr>";
+                            newRow += "<td>" + sach.TenSach + "</td>";
+                            newRow += "<td>" + sach.MoTa + "</td>";
+                            newRow += "<td><img src='~/Images/" + sach.AnhBia + "' style='width:50px;' /></td>";
+                            newRow += "<td>" + sach.NgayCapNhat + "</td>";
+                            newRow += "<td>" + sach.SoLuong + "</td>";
+                            newRow += "<td>" + sach.GiaBan + "</td>";
+                            newRow += "<td>" + sach.CHUDE + "</td>";
+                            newRow += "<td>" + sach.NXB + "</td>";
+                            newRow += "<td>";
+                            newRow += "<a class='btn btn-warning btnEditSach' data-id='" + sach.MaSach + "'>Sửa</a>";
+                            newRow += "<a class='btn btn-danger btnDeleteSach' data-id='" + sach.MaSach + "'>Xóa</a>";
+                            newRow += "</td>";
+                            newRow += "</tr>";
+                            table.append(newRow);
+                        }
+                    } else {
+                        alert("Lỗi: " + data.msg);
+                    }
+                }
+            });
+        }
+
+        // Load danh sách sách lúc tải trang
+        loadSachData();
+    });
+</script>
+@*Tạo liên kết phần trang*@
+<div>Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber) /@Model.PageCount</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .MenuTrang {
+        display: inline;
+        text-align: center;
+    }
+</style>
+

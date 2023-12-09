@@ -1,0 +1,44 @@
+﻿@model NguyenThanhTu.SachOnline.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "ThongTinCaNhan";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<style>
+    .personal-info {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 20px auto;
+        max-width: 400px;
+    }
+
+        .personal-info strong {
+            font-weight: bold;
+            display: inline-block;
+            width: 150px;
+            color: dodgerblue;
+        }
+
+        .personal-info a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+</style>
+
+<h2>Thông Tin Cá Nhân</h2>
+<div class="personal-info">
+    <strong>Họ tên:</strong> @Model.HoTen<br />
+    <strong>Tài khoản:</strong> @Model.TaiKhoan<br />
+    <strong>Email:</strong> @Model.Email<br />
+    <strong>Địa chỉ:</strong> @Model.DiaChi<br />
+    <strong>Số điện thoại:</strong> @Model.DienThoai <br />
+    <strong>Ngày Sinh:</strong> @Model.NgaySinh<br />
+    <a href="~/SachOnline/Index">Về trang chủ</a>
+    <!-- Thêm các trường thông tin cá nhân khác tương tự -->
+</div>
+
+

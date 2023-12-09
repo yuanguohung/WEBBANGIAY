@@ -1,0 +1,87 @@
+﻿@using NguyenThanhTu.SachOnline.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<SACH>
+@{
+    ViewBag.Title = "SearchPhanTrangSapXep";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2>SearchPhanTrangSapXep</h2>
+
+@using (Html.BeginForm("SearchPhanTrangSapXep", "Search", FormMethod.Get))
+{
+    <p>
+        <input type="text" name="strSearch" value="@ViewBag.Search" placeholder="Nhập sản phẩm cần tìm..." size="100" />
+        <input type="submit" value="Tìm kiếm" />
+    </p>}
+
+@{ if (Model != null)
+    {
+        <h2>KẾT QUẢ TÌM</h2>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.ActionLink("Tên Sách", "SearchPhanTrangSapXep",
+                    new { sortProperty = "TenSach", sortOrder = ViewBag.SortOrder, strSearch = ViewBag.Search })
+                </th>
+                <th>
+                    Ảnh Bìa
+                </th>
+                <th>
+                    @Html.ActionLink("Ngày cập nhật", "SearchPhanTrangSapXep",
+                    new { sortProperty = "NgayCapNhat", sortOrder = ViewBag.SortOrder, strSearch = ViewBag.Search })
+                </th>
+                <th>
+                    @Html.ActionLink("Số lượng bán", "SearchPhanTrangSapXep",
+                    new { sortProperty = "SoLuongBan", sortOrder = ViewBag.SortOrder, strSearch = ViewBag.Search })
+                </th>
+                <th>Giá</th>
+                <th>Tên Chủ Đề</th>
+                <th>Tên NXB</th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenSach)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnhBia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NgayCapNhat)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoLuongBan)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GiaBan)
+                    </td>
+                    <td>
+                        @item.CHUDE.TenChuDe
+                    </td>
+                    <td>
+                        @item.NHAXUATBAN.TenNXB
+                    </td>
+                    <td>
+                        <a href="@Url.Action("ChiTietSach","SachOnline", new { id = item.MaSach})"></a>
+                    </td>
+                </tr>
+            }
+        </table>
+        @*Tạo liên kết các trang *@
+
+        <div>Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber) /@Model.PageCount</div>
+        <div class="MenuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("SearchPhanTrangSapXep",
+            new { page = page, sortProperty = ViewBag.SortProperty, sortOrder = ViewBag.SortOrder, strSearch = ViewBag.Search }))
+        </div>
+        <style>
+            .MenuTrang {
+                display: inline;
+                text-align: center;
+            }
+        </style>
+    }
+}

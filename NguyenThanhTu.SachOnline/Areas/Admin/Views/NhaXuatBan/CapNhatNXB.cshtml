@@ -1,0 +1,55 @@
+﻿@model NguyenThanhTu.SachOnline.Models.NHAXUATBAN
+
+@{
+    ViewBag.Title = "CapNhatNXB";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Cập Nhật Nhà Xuất Bản</h2>
+
+<form name="SuaNhaXuatBan" action="~/Admin/NhaXuatBan/CapNhatNXB" method="post">
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>NHAXUATBAN</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.MaNXB)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TenNXB, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+
+                <input type="text" name="TenNXB" value="@Model.TenNXB" required class  = "form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DiaChi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+
+                <input type="text" name="DiaChi" value="@Model.DiaChi" required class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DienThoai, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+
+                <input type="text" name="DienThoai" value="@Model.DienThoai" required class="form-control" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Sửa" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    @Html.ActionLink("Quay về trang Nhà Xuất Bản", "Index")
+</div>

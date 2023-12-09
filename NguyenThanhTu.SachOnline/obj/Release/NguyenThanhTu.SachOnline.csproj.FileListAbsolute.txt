@@ -1,0 +1,232 @@
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.dll.config
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.pdb
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.exe
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.exe.config
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.rsp
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.exe
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.exe.config
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.rsp
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.AppContext.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Collections.Immutable.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Console.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Globalization.Calendars.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.Compression.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.FileSystem.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Net.Http.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Net.Sockets.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Reflection.Metadata.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.ValueTuple.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XPath.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.exe
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.exe.config
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.rsp
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\VBCSCompiler.exe
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\VBCSCompiler.exe.config
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Antlr3.Runtime.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\BCrypt.Net.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\DevOne.Security.Cryptography.BCrypt.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.SqlServer.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Google.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Web.Infrastructure.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Newtonsoft.Json.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Owin.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.Mvc.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Linq.Dynamic.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Helpers.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Mvc.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Optimization.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Razor.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Deployment.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Razor.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\WebGrease.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\BCrypt.Net.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.Mvc.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Helpers.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Mvc.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Optimization.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Razor.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Deployment.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Razor.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Newtonsoft.Json.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Antlr3.Runtime.pdb
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.SqlServer.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Google.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.AssemblyReference.cache
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.CoreCompileInputs.cache
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.CopyComplete
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.dll
+D:\HocTapDaiHoc\Nam 3_hk1\LapTrinhWEB\Lab00\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.pdb
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.dll.config
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\NguyenThanhTu.SachOnline.pdb
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.exe
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.exe.config
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csc.rsp
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.exe
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.exe.config
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\csi.rsp
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Managed.Core.targets
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.AppContext.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Collections.Immutable.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Console.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Globalization.Calendars.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.Compression.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.FileSystem.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Net.Http.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Net.Sockets.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Reflection.Metadata.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.ValueTuple.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XmlDocument.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XPath.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.exe
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.exe.config
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\vbc.rsp
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\VBCSCompiler.exe
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\roslyn\VBCSCompiler.exe.config
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Antlr3.Runtime.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\BCrypt.Net.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\DevOne.Security.Cryptography.BCrypt.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.SqlServer.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Core.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Cookies.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Facebook.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Google.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.OAuth.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Twitter.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Web.Infrastructure.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Newtonsoft.Json.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Owin.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.Mvc.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Linq.Dynamic.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Helpers.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Mvc.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Optimization.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Razor.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Deployment.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Razor.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\WebGrease.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\BCrypt.Net.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\PagedList.Mvc.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Helpers.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Mvc.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Optimization.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.Razor.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Deployment.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\System.Web.WebPages.Razor.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Newtonsoft.Json.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Antlr3.Runtime.pdb
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\EntityFramework.SqlServer.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Core.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Facebook.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Cookies.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Google.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.Twitter.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.Owin.Security.OAuth.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.AssemblyReference.cache
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.CoreCompileInputs.cache
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.csproj.CopyComplete
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.dll
+E:\NguyenThanhTu.SachOnline\NguyenThanhTu.SachOnline\obj\Release\NguyenThanhTu.SachOnline.pdb

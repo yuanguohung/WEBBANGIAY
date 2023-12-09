@@ -1,0 +1,16 @@
+﻿@model NguyenThanhTu.SachOnline.Models.NHAXUATBAN
+
+@{
+    ViewBag.Title = "ChiTiet";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div>
+    <h2>Thông Tin Chi Tiết Nhà Xuất Bản</h2>
+    <hr />
+    <p>Tên nhà xuất bản: @Model.TenNXB</p>
+    <p>Địa chỉ nhà xuất bản:  @Model.DiaChi</p>
+    <p>Số điện thoại nhà xuất bản: @Model.DienThoai</p>
+    <a href="~/Admin/NhaXuaBan/Index">Về trang Nhà Xuất Bản</a>
+</div>
